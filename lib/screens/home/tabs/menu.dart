@@ -101,7 +101,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(10.0, 15.0, 0.0, 5.0),
                   child: WelcomeText(
-                    text: "Explore ESUMMIT'23",
+                    text: "Explore ESUMMIT'25",
                     size: 35.0,
                   ),
                 ),
@@ -141,7 +141,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 HomeImageSection(
                     height: height,
                     image: S.assetEventImage,
-                    text: "Explore Events At\nESUMMIT'23",
+                    text: "Explore Events At\nESUMMIT'25",
                     elementColor: C.menuButtonColor,
                     gradientColor: C.backgroundBottom,
                     onPressed: () {
@@ -161,7 +161,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 HomeImageSection(
                     height: height,
                     image: S.assetHomeBackdrop,
-                    text: "Speakers of\nESUMMIT'23",
+                    text: "Speakers of\nESUMMIT'25",
                     elementColor: C.menuButtonColor,
                     gradientColor: C.backgroundBottom,
                     onPressed: () =>
